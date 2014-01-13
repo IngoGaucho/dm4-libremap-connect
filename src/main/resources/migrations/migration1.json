@@ -1,0 +1,57 @@
+{
+    topic_types: [
+		{
+            value: "Name",
+            uri: "net.freifunk.libremap.node_name",
+            data_type_uri: "dm4.core.text",
+            index_mode_uris: ["dm4.core.fulltext"]
+        },
+        {
+            value: "E-Mail",
+            uri: "net.freifunk.libremap.node_email",
+            data_type_uri: "dm4.core.text",
+            index_mode_uris: ["dm4.core.fulltext"]
+        },
+        {
+            value: "Freifunk ID",
+            uri: "net.freifunk.libremap.freifunk_id",
+            data_type_uri: "dm4.core.text",
+            index_mode_uris: ["dm4.core.key"]
+        },
+        {
+            value: "Node",
+            uri: "net.freifunk.libremap.node",
+            data_type_uri: "dm4.core.composite",
+            assoc_defs: [
+                {
+                    child_type_uri:        "net.freifunk.libremap.node_name",
+                    child_cardinality_uri: "dm4.core.one",
+                    assoc_type_uri:        "dm4.core.composition_def"
+                },
+                {
+                    child_type_uri:        "net.freifunk.libremap.node_email",
+                    child_cardinality_uri: "dm4.core.one",
+                    assoc_type_uri:        "dm4.core.composition_def"
+                },
+                {
+                    child_type_uri:        "net.freifunk.libremap.freifunk_id",
+                    child_cardinality_uri: "dm4.core.one",
+                    assoc_type_uri:        "dm4.core.composition_def"
+                },
+                {
+					child_type_uri:			"dm4.geomaps.geo_coordinate",
+					child_cardinality_uri:	"dm4.core.one",
+					assoc_type_uri:			"dm4.core.composition_def"
+                }
+            ],
+            view_config_topics: [
+                {
+                    type_uri: "dm4.webclient.view_config",
+                    composite: {
+                        dm4.webclient.show_in_create_menu: true
+                    }
+                }
+            ]
+        }
+    ]
+}
