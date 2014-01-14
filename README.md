@@ -1,14 +1,14 @@
-deepamehta-to-libremap-bridge
+dm4-libremap-connect
 =============================
 
 this one provides an ad-hoc module for the DeepaMehta Framework, connectig to the libremaps couchDBs.
 It will be able to utilize the same router databases, rendering the connected Nodes from the prospect of Neo4j, a graphoriented database.
 
-###Goals of "deepametha-to-libremap-bridge":
+###Goals of "dm4-libremap-connect":
 * show the state of all community networks, both on a global and local scale.
 * independent of involved routing protocols.
 * share open data for community networks.
-* extend the functionality of the DeepaMetha Framework
+* extend the functionality of the DeepaMehta Framework
 
 
 ###Installation
@@ -27,7 +27,7 @@ LibreMap is a **scalable**, **global** and **decentralized** router database and
 
 
 ###contact
-deepametha-to-libremap-bridge is coded by [Ingo](https://github.com/IngoGaucho)
+the deepamehta-to-libremap-bridge is coded by [Ingo](https://github.com/IngoGaucho)
 
 ### License
 
