@@ -22,6 +22,8 @@ I get inspired or use code of following projects
 ###Kiezatlas-mobil
 maintained by mukil (http://www.mikromedia.de)
 
+Main goal of this new city map client is to easify accessiblity of all information available on http://www.kiezatlas.de when a geo-location is given. The technological aim of this development is to provide one interactive kiezatlas website which is useable on most mobile devices currently available.
+
 
 ###LibreMap
 
