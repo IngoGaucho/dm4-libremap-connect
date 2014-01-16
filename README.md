@@ -19,6 +19,10 @@ Appreciating any suggestions or help
 
 I get inspired or use code of following projects
 
+###Kiezatlas-mobil
+maintained by mukil (http://www.mikromedia.de)
+
+
 ###LibreMap
 
 LibreMap is maintained by [André](https://github.com/andrenarchy) and [Nico](https://github.com/nicoechaniz). There is a **[mailing list](http://lists.libremap.net/mailman/listinfo/discussion)** for questions and discussions about LibreMap, so feel free to drop a line there!
@@ -27,7 +31,7 @@ LibreMap is a **scalable**, **global** and **decentralized** router database and
 
 
 ###contact
-the deepamehta-to-libremap-bridge is coded by [Ingo](https://github.com/IngoGaucho)
+the deepamehta-to-libremap-bridge is coded by [Ingo](https://github.com/IngoGaucho) with kind contributions of [Malte](https://github.com/mukil
 
 ### License
 
