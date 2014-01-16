@@ -33,7 +33,7 @@ LibreMap is a **scalable**, **global** and **decentralized** router database and
 
 
 ###contact
-the deepamehta-to-libremap-bridge is coded by [Ingo](https://github.com/IngoGaucho) with kind contributions of [Malte](https://github.com/mukil
+the deepamehta-to-libremap-bridge is coded by [Ingo](https://github.com/IngoGaucho) with kind contributions of [Malte](https://github.com/mukil)
 
 ### License
 
