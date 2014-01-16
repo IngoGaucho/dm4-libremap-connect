@@ -33,7 +33,6 @@ public class LibremapClient extends PluginActivator {
 	
     @GET
     @Path("/couchdb/all")
-    @Override
 	public void getAllNodesFromCouchDB () {
 		try {
 			logger.info("Hallo aus dem Methodenaufruf getAllNodesFromCoudhDB..");
